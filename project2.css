@@ -1,0 +1,713 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%;
+    overflow: hidden;
+    height:150%;
+   /* / background-color:salmon; */
+}
+#img{
+    width:90%;
+    height:100%;
+    background-color: aqua;
+    background-image: url(https://2.bp.blogspot.com/-1Xby7BCl16M/XAvX9epxXhI/AAAAAAADG_g/5xBUBsjejbAgSQMjNkKliOV-DfAphKhygCLcBGAs/s1600/elizabeth%2Bdavison%2Bmiu%2Bmiu%2Bjacket.jpg);
+    background-size: cover;
+    background-position: 0px -185px; 
+    position:absolute;
+    top:18%;
+    left:5%;
+    transform: translate(0%,7%);
+}
+#nav{
+    width:100%;
+    height:10%;
+    /* background-color: aqua; */
+    display: flex;
+    gap:70px;
+   margin-top:25px;
+   /* padding-top: 20px; */
+   border:1px solid ;
+}
+#div1{
+    margin-top:-8px;
+    margin-left:60px;
+    padding:15px;
+
+}
+#div1 h1{
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#div1 p{
+    font-size: 10px;
+    margin-left: 20%;
+}
+#div2{
+    padding:15px;
+}
+i{
+    padding: 20px 40px;
+}
+#h1{
+    padding:20px 60px;
+    width:220px;
+    height:90px;
+    border:1px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#h2{
+    border:1px solid;
+    padding:20px 40px;
+    width:320px;
+    height:90px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#content{
+    width:80%;
+    height:30%;
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    top:80%;
+    font-size: 40px;
+    left:14%;
+}
+#content h2{
+   
+    line-height: 55px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#circle{
+   width:8%;
+   height:45%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   /* background-color: #fff; */
+   font-size: 15px;
+   border: 1px solid white;
+   margin-right: 50px;
+   margin-top: 10px;
+   color: #fff;
+   
+   
+}
+#div4{
+    width:85%;
+    height:-0%;
+   background-color: #fff;
+    position: absolute;
+    top:103%;
+    left:80px;
+}
+#div5{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:103%;
+    left:10%;
+   width:80%;
+  color: #fff;
+  margin-top: 10px;
+}
+#div5 i{
+font-size: 20px;
+}
+#part{
+    display: flex;
+    justify-content: space-around;
+   gap:10px;
+   margin-top:52%;
+    width:100%;
+    height:15%;
+    /* background-color:yellow; */
+}
+.class{
+    border-radius: 50%;
+    margin-top: 20px;
+    width:15%;
+    height:84%;
+    background-color:green;
+}
+#img1{
+  margin-left: -60px;
+    background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+}
+#img3{
+    background-image: url(https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+}
+#img4{
+    background-image: url(https://images.unsplash.com/photo-1470259078422-826894b933aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+}
+#img5{
+    background-image: url(https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: -15px;
+}
+#img6{
+    background-image: url(https://images.unsplash.com/photo-1505033575518-a36ea2ef75ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+}
+#img7{
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position:-20px;
+}
+#img8{
+    background-image: url(https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: 0 0;
+    margin-right:-50px;
+}
+
+#main2{
+    width:100%;
+    height:130%;
+    /* background-color:yellow; */
+}
+#name{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width:100%;
+    height:10%;
+    border-color: aqua;
+}
+#alpha{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding-left: 50px;
+    width:100%;
+    height: 10%;
+   border:1px solid black;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.opa{
+    opacity: .5;
+}
+#divc{
+    width:2%;
+    height:40%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 50%;
+    border:1.3px solid;
+}
+#coll{
+    display: flex;
+    width:100%;
+    height: 90%;
+    /* background-color: yellow; */
+}
+#roll1{
+     padding:30px;
+    width:50%;
+    height:100%;
+    /* background-color: #fff; */
+}
+#roll1 h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+#img14{
+   
+    width:95%;
+    height:95%;
+background-image: url(https://sun9-26.userapi.com/impg/4e-PT-2YN6tPeMfsneDt7zDasYoTaIZn5FMS4Q/dElEeSKPbc8.jpg?size=442x604&quality=96&sign=ced88af77aea038fe8cb9d75373c660b&c_uniq_tag=0_ABh4qxGXZn-iqfGrq9EAkBR5U8FeJf3Ysbw4cZKGU&type=album);
+background-size: cover;
+}
+#roll2{
+    padding:30px 10px;
+    width:50%;
+    height:100%;
+   margin-left:-20px;
+}
+#img15{
+    width:97%;
+    height:75%;
+    background-image: url(https://select-s3.agencypin.com/files/gallery/9543/expanded/model_9543_60292e0d57fc.jpeg);
+    background-size: cover;
+}
+#para{
+    display: flex;
+    width:97%;
+    height:20%;
+   
+   justify-content: space-between;
+}
+#para h3{
+width:35%;
+height:100%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para p{
+    width:50%;
+    height:100%;
+}
+#main3{
+    display: flex;
+    width:100%;
+    height:100%;
+  margin-top: 80px;
+}
+#left{
+    position: relative;
+    width:40%;
+    height:90%;
+    background-color: #fff;
+}
+#arr{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    opacity: .5;
+}
+#leftimg img{
+  width:40%;
+  height:40%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+}
+#left p{
+    margin-top:100%;
+    margin-left: 24%;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#right{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/560070e9e4b0ec1a479fb141/1572862667927-2I4W4SVBVKJJ04KWHERO/1IMG_4681.jpg?format=1000w);
+   background-size: cover;
+   background-position:0px;
+    width:56%;
+    height:95%;
+    /* background-color:yellow; */
+}
+#main4{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+#main4img{
+    width:92%;
+    height:90%;
+    position: absolute;
+    top:20%;
+    left:19%;
+    transform: translate(-16%,-16%);
+    background-image: url("https://i.guim.co.uk/img/media/03d508ee3f5e39964168bbd1f355528f20ed1f14/37_65_2323_2903/master/2323.jpg?width=1300&quality=45&dpr=2&s=none");
+   background-size: cover;
+}
+#circ4{
+    position:absolute;
+    right:5%;
+    top:7%;
+    width:3%;
+    height:6%;
+    border-radius: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+}
+#main5{
+    width:100%;
+    height:100%;
+}
+#main5>h2{
+    margin-top:20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size:30px;
+}
+#hrd {
+    width:90%;
+    margin-left: 60px;
+    margin-top:45px;
+}
+.div51{
+     width:90%;
+     height:25%;
+    display: flex;
+    justify-content:space-around;
+    padding-top:20px;
+    
+}
+#child1{
+    background-image: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+  margin-left: -170px;;
+  margin-top: -18px;
+    width:12%;
+    height:80%;
+    border-radius: 50%;
+    background-color:green;
+}
+.chr{
+    width:90%;
+    margin-left: 60px;
+    margin-top:-30px;
+}
+#div9{
+    margin-left:-14%;
+    width:10%;
+    height:80%;
+    /* background-color:yellow; */
+}
+.div51 h2{
+    font-weight: 100;
+}
+.div51 p{
+    font-size: 13px;
+}
+#child2{
+    background-image: url(https://images.unsplash.com/photo-1526511253005-9a4a8cde2956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+  margin-left: -170px;;
+  margin-top: -18px;
+    width:12%;
+    height:80%;
+    border-radius: 50%;
+    background-color:green;
+}
+#main6{
+    display: flex;
+    width:100%;
+    height:100%;
+    margin-top: 40px;
+}
+#left6{
+    background-image: url(https://select-images.agencypin.com/files/gallery/13024/expanded/gallery_model_3KB8HJF4iU9P.jpg);
+    background-size: cover;
+    background-position: -1px;
+    width:50%;
+    height: 90%;
+    background-color:yellow;
+margin-left:50px;
+margin-right: 30px;
+}
+#right6{
+    margin-right:50px;
+    width:50%;
+    height: 90%;
+}
+#top{
+    width:100%;
+    height:45%;
+}
+#bottom{
+    display: flex;
+    width:100%;
+    height:55%;
+    justify-content: space-between;
+}
+#bottom1{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5a00862ca9db098723766900/1560184417539-V3ZZFSWXJSWHW1H7N2BF/5.1+Richie+Shazam+Print_LEN_1263-2.jpg?format=500w);
+    background-size: cover;
+    background-position: -0px -115px;
+    width:49%;
+    height:100%;
+}
+#bottom2{
+    background-image: url(https://images.squarespace-cdn.com/content/5dbe0ad1270af32a3472575f/1578618613195-QKG9Q9J6W36YXRBD28VY/wes+period.jpg?content-type=image%2Fjpeg);
+    background-size: cover;
+    background-position: 0 -100px;
+    width:49%;
+    height:100%;
+}
+#top h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+#top h5{
+    font-size: 17px;
+    margin-top:35px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#top p{
+    margin-top:33px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#main7{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+#main7img{
+    width:92%;
+    height:90%;
+    position: absolute;
+    top:15%;
+    left:19%;
+    transform: translate(-16%,-16%);
+    background-image: url(https://mediaslide-europe.storage.googleapis.com/premier/pictures/4727/21021/large-1580232690-37e31c83fdef4c1fabc1d06805ffd0c8.jpg);
+   background-size: cover;
+}
+#cir7{
+    position:absolute;
+    right:5%;
+    top:7%;
+    width:3%;
+    height:6%;
+    border-radius: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+}
+#main8{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+#left8{
+    background-image: url(https://onemanagement.com/assets/2019-12-04/75335IMAGE12ab98b18757b.jpg);
+  background-size: cover;
+  background-position: 0px -130px;
+    margin-left:50px;
+margin-right: 30px;
+    width:50%;
+    height:95%;
+    background-color:yellow;
+}
+#right8{
+    margin-right: 50px;
+    width:50%;
+    height:95%;
+}
+#top8{
+    width:100%;
+    height:65%;
+    background-image: url(https://forum.f1news.ru/uploads/monthly_2019_09/Gv-u-LfoQ54.thumb.jpg.725c845f1a3ee78f9814403e14db5280.jpg);
+    background-size: cover;
+    background-position: 0px -20px;
+}
+#bottom8{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:35%;
+    font-size: 14px;
+}
+#left81{
+    margin-top:20px;
+    width:29%;
+    height:100%;
+    background-color: #fff;
+}
+#right81{
+    margin-top: 20px;
+    width: 59%;
+    height:100%;
+   
+}
+#left81 h3{
+    font-weight: 700;
+}
+#main9{
+    width:100%;
+    height:120%;
+}
+ #main9>h1{
+   
+    margin-top: 30px;
+    font-size: 40px;
+    width:100%;
+    height:10%;
+    border:1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.386);
+    color:rgba(0, 0, 0, 0.03);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#top9{
+    display: flex;
+    margin-top:40px;
+    width:100%;
+    height:60%;
+    /* background-color:yellow; */
+}
+#left9{
+
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+        font-weight: 1000;
+    width:20%;
+    height:90%;
+    padding-left:90px;
+    margin-left:20px;
+}
+
+#mid9{
+    
+    font-size:15px;
+    font-weight:600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right:30px;
+    width:40%;
+    height:90%;
+}
+#div90{
+    display: flex;
+    gap:10px;
+}
+#cir9{
+    width:5%;
+    height:10%;
+    border-radius: 50%;
+border:1px solid;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#divimg9{
+    background-image: url(https://i.mdel.net/i/db/2020/1/1264226/1264226-800w.jpg);
+    background-size: cover;
+   width:100%;
+   height:65%;
+   margin-top: 45px;
+}
+#divimg91{
+    background-image: url(https://si.wsj.net/public/resources/images/B3-AE127_COUTUR_1000V_20180423135949.jpg);
+    background-size: cover;
+    background-position: -0px -150px;
+    width:100%;
+    height:65%;
+    margin-top:45px;
+ }
+#right9{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right:50px;
+    width:41%;
+    height:90%;
+    font-size:15px;
+    font-weight:600;
+  
+}
+#bottom9{
+    margin-top: 60px;
+    width:100%;
+height:40%;
+   display:flex;
+}
+#left91{
+    border:1px solid;
+    width:40%;
+    height:95%;
+  display: flex;
+  justify-content: space-around;
+}
+#left91 h1{
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:15px;
+}
+#content9>p{
+    line-height: 1px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 10px;
+   margin-left:32px;
+}
+#left91>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+#mid91{
+    border:1px solid;
+    width:20%;
+    height:95%;
+    border-left: 0px;
+}
+#mid91>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#right91{
+    border:1px solid;
+    width:40%;
+    height:95%;
+    border-left: 0px;
+}
+#topr{
+    width:100%;
+    height:20%;
+}
+#topr>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#bottomr{
+    border:1px solid;
+    width:100%;
+    height:80%;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40px;
+    width:40%;
+    height:10%;
+    margin-top:40px;
+    /* background-color: yellow; */
+}
+#icons i{
+   margin-left: -40px;
+    width:26px;
+}
+#bottomr>p{
+    margin-left:40px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
